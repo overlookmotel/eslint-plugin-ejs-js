@@ -1,4 +1,4 @@
-# eslint-plugin-ejs-js.js
+# eslint-plugin-ejs-js
 
 # EJS plugin for ESLint
 
@@ -12,6 +12,22 @@
 [![Coverage Status](https://img.shields.io/coveralls/overlookmotel/eslint-plugin-ejs-js/master.svg)](https://coveralls.io/r/overlookmotel/eslint-plugin-ejs-js)
 
 ## Usage
+
+ESLint plugin for EJS (embedded Javascript templates). Implemented entirely in Javascript.
+
+```
+npm install --save-dev eslint eslint-plugin-ejs-js
+```
+
+Add `ejs-js` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+
+```js
+{
+  "plugins": [
+    "ejs-js"
+  ]
+}
+```
 
 ## Tests
 
